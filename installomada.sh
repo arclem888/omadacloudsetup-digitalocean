@@ -26,7 +26,7 @@ sudo wget https://static.tp-link.com/upload/software/2023/202301/20230130/Omada_
 
 echo "now installing sdn controller"
 cd
-sudo -i gdebi Omada_SDN_Controller_v5.8.4_Linux_x64.deb
+sudo -i gdebi -n Omada_SDN_Controller_v5.8.4_Linux_x64.deb
 
 
 
