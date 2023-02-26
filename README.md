@@ -32,7 +32,7 @@
 ## 9. on the pop up, login as root and enter your root password ( from the last step 6)
 <img src="https://github.com/arclem888/omadacloudsetup-digitalocean/raw/main/omadacloudcontrollersetup/9-loginrootpassword.png" width="800">
 
-## 10. Copy and paste the installation script created by arclem the press enter ---> bash <(curl -Ls http://bit.ly/3IVYSKu)
+## 10. Copy and paste the installation script created by arclem then press enter ---> bash <(curl -Ls http://bit.ly/3IVYSKu)
 <img src="https://github.com/arclem888/omadacloudsetup-digitalocean/raw/main/omadacloudcontrollersetup/10-runinstallationscriptfromarclem.png" width="800">
 ## 10.a. please wait while the script is running it will ask it to enter "2" as selection for the config. please do so and hit enter
 
