@@ -18,7 +18,7 @@ echo "this will update config java. please select 2"
 sudo update-alternatives --config java
 
 echo "installing gdebi-core"
-sudo apt=get --yes --force-yes install gdebi-core
+sudo apt-get --yes --force-yes install gdebi-core
 
 echo "downloading omada sdn controller"
 cd
