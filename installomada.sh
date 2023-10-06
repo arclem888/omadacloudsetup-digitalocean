@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing Omada Cloud by dhads"
+echo "Installing Omada Cloud by Arclem"
 
 echo "Updating apt package"
 sudo apt-get -y update 
@@ -22,11 +22,11 @@ sudo apt-get -y install gdebi-core
 
 echo "downloading omada sdn controller"
 cd
-sudo wget https://www.tp-link.com/ph/support/download/omada-software-controller/Omada_SDN_Controller_v5.12.7_Linux_x64.deb
+sudo wget https://static.tp-link.com/upload/software/2023/202301/20230130/Omada_SDN_Controller_v5.8.4_Linux_x64.deb
 
 echo "now installing sdn controller"
 cd
-sudo -i gdebi -n Omada_SDN_Controller_v5.12.7_Linux_x64.deb
+sudo -i gdebi -n Omada_SDN_Controller_v5.8.4_Linux_x64.deb
 
 
 
