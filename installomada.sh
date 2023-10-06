@@ -22,7 +22,7 @@ sudo apt-get -y install gdebi-core
 
 echo "downloading omada sdn controller"
 cd
-sudo wget -O omada_v5.12.7_linux_x64_20230905160956_1695177653350.deb https://firebasestorage.googleapis.com/v0/b/arclemwifipublic/o/omada_v5.12.7_linux_x64_20230905160956_1695177653350.deb?alt=media&token=ed0d8236-07b7-48cd-9210-34b8c704f43d
+sudo wget -O omada_v5.12.7_linux_x64_20230905160956_1695177653350.deb "https://firebasestorage.googleapis.com/v0/b/arclemwifipublic/o/omada_v5.12.7_linux_x64_20230905160956_1695177653350.deb?alt=media&token=ed0d8236-07b7-48cd-9210-34b8c704f43d"
 
 echo "now installing sdn controller"
 cd
